@@ -1,0 +1,23 @@
+.carouselContainer {
+  width: 100%;
+
+  .carousel {
+    background-color: blue;
+    white-space: nowrap;
+    overflow: hidden;
+
+    .item {
+      display: inline-flex;
+      height: 100px;
+      background-color: red;
+      width: 100px;
+      margin: 1rem;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .itemContainer {
+      display: inline-block;
+    }
+  }
+}
